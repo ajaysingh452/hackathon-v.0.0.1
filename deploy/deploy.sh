@@ -111,7 +111,7 @@ spec:
     - host: ${INGRESS_HOST}
       http:
         paths:
-          - path: ${INGRESS_PATH}
+          - path: /
             pathType: Prefix
             backend:
               service:
